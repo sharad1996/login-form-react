@@ -1,3 +1,7 @@
+body #root .App .content-box .login-box {
+  height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.content-box {
+  background: #01143E;
+  padding-top: 130px;
+}
+
+.content-list {
+  margin: 0 20px 0 ;
+  padding: 0;
+}
+.content-list li{
+  list-style: none;
+}
+.content-list li span{
+  width: 25px;
+  height: 25px;
+  border: #fff solid 1px;
+  display: inline-block;
+  border-radius: 100%;
+  line-height: 23px;
+  text-align: center;
+  margin: 10px 5px 10px 0;
+  color: #fff;
+}
+
+.login-box {
+  background: #F2F6FF;
+  padding-top: 130px;
+}
+
+.light-background {
+  background: #0078FA !important;
+  color: #fff !important;
+}
+
+.light-color {
+  color: #0078FA !important
 }
